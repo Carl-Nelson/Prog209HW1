@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Final Project: Rock Paper Scissors</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <div id="startScreen">
+            <h1>Rock Paper Scissors</h1>
+            <br>
+            <p>Press the button to begin.</p>
+            <button id="startButton">Start the game!</button>
+        </div>
+        <div id="wrapper">
+		<h1>Rock Paper Scissors</h1>
+    	<section>
+    		<h3>Make your choice:</h3>
+    		<img src="images/rock.jpg" class="human" alt="Rock">
+       		<img src="images/paper.jpg" class="human" alt="Paper">
+    		<img src="images/scissors.jpg" class="human" alt="Scissors">
+        </section>
+		<!--These fields will get filled in later by the script-->
+		<section id="scoreboard">
+            <br>
+            <h3 id="scoreHeader">Click one of the images above to continue!</h3>
+            <p id="humanAction">Remember: Rock beats scissors, scissors beats paper, and paper beats rock.</p>
+            <p id="computerAction"></p>
+            <p id="roundResult"></p>
+            <br>
+            <span id="humanScoreDisplay">Human: 0 </span><span id="computerScoreDisplay">Computer: 0 </span><span id="tieScoreDisplay">Tie: 0 </span>
+        </section> 
+        <section>
+                <h3>Computer responds with:</h3>
+                <img src="images/rock.jpg" class="computer" alt="Rock">
+                   <img src="images/paper.jpg" class="computer" alt="Paper">
+                <img src="images/scissors.jpg" class="computer" alt="Scissors">
+               </section>
+            </div>
+            <div id="endScreen">
+                <h1>Rock Paper Scissors</h1>
+                <br>
+                <h2>GAME OVER</h2>
+                <br>
+                <p id="endResult"></p>
+                <p>Press the button to reset the game.</p>
+                <button id="resetButton">Start Over</button>
+            </div>
+        <script src="js/game.js"></script>
+    </body>
+</html>

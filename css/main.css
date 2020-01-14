@@ -1,0 +1,47 @@
+
+#wrapper {
+	font-family: arial, helvetica, sans-serif;
+	width: 700px;
+	margin: 50px auto;
+	border: 1px solid gray;
+	padding: 0 20px;
+	background-color: beige;
+	display: none;
+}
+#startScreen {
+	font-family: arial, helvetica, sans-serif;
+	width: 700px;
+	margin: 50px auto;
+	border: 1px solid gray;
+	padding: 0 20px 30px;
+	background-color: beige;
+	text-align: center;
+}
+#endScreen {
+	font-family: arial, helvetica, sans-serif;
+	width: 700px;
+	margin: 50px auto;
+	border: 1px solid gray;
+	padding: 0 20px 30px;
+	background-color: beige;
+	display: none;
+	text-align: center;
+}
+section {
+	width: 940px;
+	height: 240px;
+}
+section:last-child {
+	margin-bottom: 40px;
+}
+#scoreboard {
+	width: 650px;
+	height: 200px;
+	padding: 20px;
+	border: 1px solid gray;
+}
+img {
+	float: left;
+	padding-right: 10px;
+	cursor: pointer;
+}
